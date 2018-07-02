@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentone"
+        android:name="com.firstexample.emarkova.session6.Fragment1"
+        android:layout_width="@dimen/fragment_w"
+        android:layout_height="@dimen/fragment_h"
+        tools:layout="@layout/fragment1"></fragment>
+
+    <fragment
+        android:id="@+id/fragmenttwo"
+        android:name="com.firstexample.emarkova.session6.Fragment2"
+        android:layout_width="@dimen/fragment_w"
+        android:layout_height="@dimen/fragment_h"
+        tools:layout="@layout/fragment2"></fragment>
+    <fragment
+        android:id="@+id/fragmentthree"
+        android:name="com.firstexample.emarkova.session6.Fragment3"
+        android:layout_width="@dimen/fragment_w"
+        android:layout_height="@dimen/fragment_h"
+        tools:layout="@layout/fragment3"></fragment>
+    <fragment
+        android:id="@+id/fragmentfour"
+        android:name="com.firstexample.emarkova.session6.Fragment4"
+        android:layout_width="@dimen/fragment_w"
+        android:layout_height="@dimen/fragment_h"
+        tools:layout="@layout/fragment4"></fragment>
+
+</GridLayout>

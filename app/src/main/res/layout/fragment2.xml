@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_centerInParent="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button1Frag2"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button3Frag2"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button4Frag2"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/button"
+        android:text="Button"
+        android:layout_toLeftOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button2Frag2"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/button"
+        android:text="Button"
+        android:layout_toRightOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Button"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Button"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Button"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Button"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

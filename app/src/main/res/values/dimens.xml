@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>=
+    <dimen name="fragment_h">270dp</dimen>
+    <dimen name="fragment_w">180dp</dimen>
+    <dimen name="rows">2</dimen>
+    <dimen name="cols">2</dimen>
+    <dimen name="button_size">47dp</dimen>
+    <dimen name="textview_h">36dp</dimen>
+    <dimen name="textview_w">67dp</dimen>
+    <dimen name="radius">50dp</dimen>
+    <dimen name="angle">0</dimen>
+    <dimen name="textview_l">24dp</dimen>
+    <dimen name="textview_r">10dp</dimen>
+</resources>
